@@ -14,3 +14,5 @@
 
 // Package snapshot implements utilities around etcd snapshot.
 package snapshot
+
+// first comments in doc.go
