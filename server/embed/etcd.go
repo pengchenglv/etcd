@@ -67,6 +67,7 @@ const (
 )
 
 // Etcd contains a running etcd server and its listeners.
+// listener是什么呢？
 type Etcd struct {
 	Peers   []*peerListener
 	Clients []net.Listener
